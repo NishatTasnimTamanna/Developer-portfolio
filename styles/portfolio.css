@@ -7,6 +7,12 @@
     color: #FD6E0A;
 }
 
+.button {
+    gap: 30px;
+    height: 64px;
+    display: flex;
+}
+
 .btn-primary {
     color: #ffffff;
     height: 64px;
@@ -17,6 +23,16 @@
     border: 0;
     padding: 18px 35px;
 
+}
+
+.btn-secondary {
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 5px;
+    height: 64px;
 }
 
 .header {
@@ -157,7 +173,8 @@ section {
     display: flex;
     gap: 24px;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -181,30 +198,37 @@ section {
     color: #757575;
 }
 
-.resume-button{
+.resume-button {
     margin-top: 50px;
     text-align: center;
 }
+
 /* contact styles */
-.contact .section-title{
+.contact .section-title {
     text-align: left;
 }
-.contact{
+
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
-    padding:130px 200px;
+    padding: 130px 200px;
 }
-.contact input[type="text"], input[type="email"], textarea{
-    border:0;
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    border: 0;
     margin-bottom: 24px;
-    width:100%;
+    width: 100%;
     padding: 18px 30px;
 }
-input{
+
+input {
     height: 64px;
 
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
